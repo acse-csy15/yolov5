@@ -4,7 +4,7 @@
     "anchor_t": {
       "type": "discrete",
       "values": [
-        2,
+        4,
         8
       ]
     },
@@ -12,7 +12,6 @@
       "type": "discrete",
       "values": [
         16,
-        32,
         64
       ]
     },
@@ -32,13 +31,8 @@
     "cls_pw": {
       "type": "discrete",
       "values": [
-        0.5
-      ]
-    },
-    "copy_paste": {
-      "type": "discrete",
-      "values": [
-        1
+        0.5,
+        1.0
       ]
     },
     "degrees": {
@@ -51,7 +45,7 @@
     "epochs": {
       "type": "discrete",
       "values": [
-        5
+        100
       ]
     },
     "fl_gamma": {
@@ -63,13 +57,13 @@
     "fliplr": {
       "type": "discrete",
       "values": [
-        0
+        0.3
       ]
     },
     "flipud": {
       "type": "discrete",
       "values": [
-        0
+        0.3
       ]
     },
     "hsv_h": {
@@ -99,7 +93,7 @@
     "lr0": {
       "type": "discrete",
       "values": [
-        1e-05,
+        1e-3,
         0.1
       ]
     },
@@ -143,7 +137,6 @@
     "optimizer": {
       "type": "categorical",
       "values": [
-        "SGD",
         "Adam",
         "AdamW"
       ]
@@ -157,7 +150,8 @@
     "scale": {
       "type": "discrete",
       "values": [
-        0
+        0,
+        0.5
       ]
     },
     "shear": {
@@ -169,7 +163,8 @@
     "translate": {
       "type": "discrete",
       "values": [
-        0
+        0,
+        0.1
       ]
     },
     "warmup_bias_lr": {
@@ -195,7 +190,6 @@
     "weight_decay": {
       "type": "discrete",
       "values": [
-        0,
         0.001
       ]
     }
